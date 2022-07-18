@@ -1,0 +1,41 @@
+{
+  "name": "poca",
+  "version": "1.0.0",
+  "description": "Test basic contact CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test-dev": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachealsoosaipillai/poca.git"
+  },
+  "keywords": [
+    "PostgreSQL",
+    "Node",
+    "Passport",
+    "Express"
+  ],
+  "author": "Racheal Soosaipillai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rachealsoosaipillai/poca/issues"
+  },
+  "homepage": "https://github.com/rachealsoosaipillai/poca#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19"
+  }
+}
